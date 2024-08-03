@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title id="window-title">VCT CALENDAR GENERATOR</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/png" href="https://owcdn.net/img/63067806d167d.png">
+  </head>
+  <body>
+    <div class="centered-div">
+      <div id="options" class="options-container">
+        <div class="title">
+          <p>VCT CALENDAR GENERATOR</p>
+        </div>
+        <p>Match day:</p>
+        <input type="text" id="match-day">
+        <p>First match:</p>
+        <div class="match-container">
+          <p>Match hour:</p>
+          <input type="text" id="1-match-hour">
+          <p>Match encounter:</p>
+          <div class="match-encounter">
+            <select class="team-select" id="1-match-1-team"></select>
+            <p>VS.</p>
+            <select class="team-select" id="1-match-2-team"></select>
+          </div>
+        </div>
+        <p>Second match:</p>
+        <div class="match-container">
+          <p>Match hour:</p>
+          <input type="text" id="2-match-hour">
+          <p>Match encounter:</p>
+          <div class="match-encounter">
+            <select class="team-select" id="2-match-1-team"></select>
+            <p>VS.</p>
+            <select class="team-select" id="2-match-2-team"></select>
+          </div>
+        </div>
+        <button id="gen-img-btn">Generate image</button>
+      </div>
+    </div>
+    <canvas id="image-canvas" class="image-canvas" width="1000" height="1000"></canvas>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html>
