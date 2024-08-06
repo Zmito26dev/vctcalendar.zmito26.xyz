@@ -50,6 +50,7 @@ imgFondo.src = './assets/background.png';
 let teamIconLoaded = 0;
 function checkFinishLoaded() {
   if (teamIconLoaded === 4) {
+    teamIconLoaded = 0;
     const dataURL = ImageCanvas.toDataURL('image/png');
     const link = document.createElement('a');
     link.href = dataURL;
