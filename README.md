@@ -1,7 +1,7 @@
 # VCT CALENDAR GENERATOR
 Website to create images or widgets with VCT matches of the day.
 
-[Official Website](vctcalendar.zmito26.xyz)
+[Official Website](https://vctcalendar.zmito26.xyz)
 
 
 > [!NOTE]  
